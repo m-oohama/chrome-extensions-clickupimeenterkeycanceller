@@ -1,4 +1,5 @@
 # ClickUp IME Enter Key Canceller
+<img width="920" alt="image" src="https://github.com/user-attachments/assets/1e9f660e-0cf6-4273-b76a-7435c81dc67a">
 
 MacOSのChromeで、ClickUpのタスク編集時にテキストボックス内で日本語を変換しEnterキーで変換を確定するとフォーカスが外れてしまい続けて入力することができなくなる問題に悩んでいたので、暇つぶしに作った変換確定時のEnterキー入力をキャンセルするだけの拡張機能。
 
