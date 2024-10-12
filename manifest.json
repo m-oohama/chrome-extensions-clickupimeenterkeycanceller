@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "name": "IME文字変換確定の送信無効化 for ClickUp",
+    "description": "MacOSのブラウザでClickUpを操作する際にIMEの文字確定がEnterになってしまう問題を解決する",
+    "content_scripts": [
+        {
+            "js": ["script.js"],
+            "matches": ["https://app.clickup.com/*"]
+        }
+    ],
+    "icons": {
+        "16": "hiragana.png",
+        "48": "hiragana@2x.png"
+    }
+}
