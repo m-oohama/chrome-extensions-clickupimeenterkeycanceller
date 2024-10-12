@@ -3,11 +3,10 @@
  */
 document.addEventListener("keydown", function(e) {
     // see at https://developer.mozilla.org/ja/docs/Web/API/Element/keydown_event
-    if (e.isComposing && e.key == "Enter") {
-    // if (e.key == "Enter" & (e.isComposing || e.keyCode === 229)) {
-            e.stopPropagation();
+    if (e.key == "Enter" & (e.isComposing || e.keyCode === 229)) {
+        e.stopPropagation();
         e.preventDefault();
         return false;
     }
-
-});
+    // console.log("e.isComposing:" + e.isComposing + " e.KeyCode:" + e.keyCode + " e.key:" + e.key);
+}, true); // 第二引数：useCapture
